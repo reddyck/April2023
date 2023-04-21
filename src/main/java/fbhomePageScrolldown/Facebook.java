@@ -13,7 +13,8 @@ static WebDriver driver;
 		@BeforeTest
 		void chromeLaunch()
 		{
-			driver.get("http://gmail.com");		}
+			driver.get("http://gmail.com");		
+			}
 	
 
 }
